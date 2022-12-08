@@ -1,8 +1,9 @@
 #include<stdio.h>
 /**
 * main - Entry point
-* Description: Programming in C
-* Returns value
+*
+* Description: Programming in C.
+* Returns value 0
 */
 int main(void)
 {
