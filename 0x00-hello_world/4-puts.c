@@ -1,8 +1,11 @@
 #include<stdio.h>
-/*using put to print the out put to return a value 0*/
+/*main - Entry
+*Description: 'programming in C'
+*Returns value
+*/
 int main(void)
 {
 puts("\"Programming is like building a multilingual puzzle");
 getchar();
-return (0) ;
+ return (0);
 }
