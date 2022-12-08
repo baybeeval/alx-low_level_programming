@@ -3,11 +3,10 @@
 /**
 * main - print this quote
 *
-* Return: Always 1(Error)
+* Return: Always 1(Success)
 */
 int main(void)
 {
-char str[] = "and that piece of art is useful - Dora Korpar, 2015-10-19\n;
-write(str);
+write("and that piece of art is useful - Dora Korpar, 2015-10-19\n");
 return (1);
 }
