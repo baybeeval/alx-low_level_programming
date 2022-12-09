@@ -1,9 +1,9 @@
 #include <stdio.h>
 /**
- * main - Prints the alphabet in lower and uppercase
- *
- * Return: Always 0 (Success)
- */
+* main - Prints the alphabet in lower and uppercase
+*
+* Return: Always 0 (Success)
+*/
 int main(void)
 {
 char alp[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
