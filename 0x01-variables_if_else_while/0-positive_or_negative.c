@@ -1,21 +1,23 @@
 #include <stdlib.h>
 #include <time.h>
-/* more headers goes there */
-
-/* betty style doc for function main goes there */
+/**
+*main: print value as prositver or zero or negative
+*
+/*Return: Always 0 (Success)
+*/
 int main(void)
 {
 int n;
 srand(time(0));
 n = rand() - RAND_MAX / 2;
 if(n > 0){
-printf("is postivitve \n");
+printf("%d is postivitve \n");
 }
 else if(n == 0){
-printf("is Zero \n");
+printf("%d is Zero \n");
 }
 else{
-printf("is negtative \n");
+printf("%d is negtative \n");
 }
 return (0);
 }
