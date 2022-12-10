@@ -7,10 +7,13 @@
 int main(void)
 {
 int b;
-while (b = 0; b <10; b++)
+b = 20;
+while (b < 30)
 {
-putchar(b"\n");
+putchar(b);
+b++;
 }
+putchar(10;)
 return 0;
 }
 
