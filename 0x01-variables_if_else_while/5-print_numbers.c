@@ -13,7 +13,7 @@ while (b < 30)
 putchar(b);
 b++;
 }
-putchar(10;)
+putchar(10);
 return 0;
 }
 
