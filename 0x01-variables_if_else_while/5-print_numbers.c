@@ -7,13 +7,10 @@
 int main(void)
 {
 int b;
-b = 0;
-while (b < 10)
+for (b = 0; b < 10; b++)
 {
-putchar(b);
-putchar('\n');
-b++;
+printf ("%d", b);
 }
+putchar('\n');
 return 0;
 }
-
