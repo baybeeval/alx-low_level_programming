@@ -15,8 +15,8 @@ if (x != 57)
 {
 putchar(44);
 putchar(32);
-x++;
 }
+x++; 
 }
 putchar(10);
 return (0);
