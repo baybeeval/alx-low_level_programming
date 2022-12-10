@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 /**
-*main - Establish if number is greater or less than 
+*main - Establish if number is greater or less than
 *
 *Return: Always 0 (Success)
 */
@@ -14,15 +14,15 @@ n = rand() - RAND_MAX / 2;
 last = n % 10;
 if (n > 5)
 {
-printf("Last digit of %d is %d and is greater than 5\n", n, last);
+printf("Last digit of %d is %d and is 0\n", n, last);
 }
 else if (n < 6 && n > 0)
 {
-printf("Last is digit for %d is %d and is 0\n", n, last);
+printf("Last digit of  %d is %d and is less than 6 and not 0\n", n, last);
 }
 else
 {
-printf("Last digit for %d is %d and is less than 6 and not 0\n", n, last);
+printf("Last is digit of %d is %d and is greater than 5\n", n, last);
 }
 return (0);
 }
