@@ -6,11 +6,11 @@
 */
 int main(void)
 {
-int b =10;
-while (b<10)
+int b;
+while (b = 0; b <10; b++)
 {
-  putchar(b);
-b++;
+putchar(b"\n");
 }
 return 0;
 }
+
