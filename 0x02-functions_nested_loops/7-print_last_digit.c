@@ -2,6 +2,8 @@
 /**
 *print_last_digit - Establish the last digit
 *
+*@n: n is an integer
+*
 *Return: Always n (Success)
 */
 int print_last_digit(int n)
