@@ -1,15 +1,16 @@
 #include "main.h"
 /**
-*abs - checks code
+*_abs - checks code to give absolute value of integer
 *
+*@n: n is an integer
 *
-*Return: Always 0 (Success)
+*Return: Always n (Success)
 */
 int _abs(int n)
 {
 if (n > 0)
 {
-return(n);
+return (n);
 }
 else if (n < 0)
 {
