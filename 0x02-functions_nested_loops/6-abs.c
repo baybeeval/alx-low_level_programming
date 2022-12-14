@@ -5,22 +5,17 @@
 *
 *Return: Always 0 (Success)
 */
-int _abs(int)
+int _abs(int n)
 {
-int n;
-{
-if (n < 0)
-printf("The absolute value of n is %d\n",abs(-1));
-return (0);
+if (n > 0)
+return(n);
 }
 else if (n > 0)
 {
-printf("The absolute value of n is %d\n",abs(1));
-return (0);
+return (-n);
 }
 else
 {
-printf("The absolute value of n is %d\n",abs(0));
-}
 return (0);
+}
 }
