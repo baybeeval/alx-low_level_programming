@@ -2,6 +2,8 @@
 /**
 *print_sign - print a sign
 *
+*@n: n is an intege
+*
 *Return: give 1 if greater, 0 if zero and -1 if less than zero
 */
 int print_sign(int n);
