@@ -1,7 +1,6 @@
 #include "main.h"
 /**
-*
-*jack_bauer - Output mintues in a day
+*jack_bauer - prints mintues in a day
 *
 *Return : Always 0 (Success)
 */
