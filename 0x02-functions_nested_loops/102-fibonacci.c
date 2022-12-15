@@ -13,7 +13,7 @@ return;
 printf("%d, ", b1);
 for (i = 1; i < n; i++) {
 printf("%d, ", b2);
-int next = b1 + b2;
+int c = b1 + b2;
 b1 = b2;
 b2 = next;
 }
