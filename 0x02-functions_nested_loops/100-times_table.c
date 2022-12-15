@@ -28,14 +28,14 @@ _putchar(t + 48);
 else if (t <= 99)
 {
 _putchar(32);
-_putchar((t / 10) + 48);
-_putchar((t % 10) + 48);
+_putchar((t / 10)+ 48);
+_putchar((t % 10)+ 48);
 }
 else
 {
-_putchar(((t / 100) % 10) + 48);
-_putchar(((t / 10) % 10)  + 48);
-_putchar((t % 10) + 48);
+_putchar(((t / 100) % 10)+ 48);
+_putchar(((t / 10) % 10)+ 48);
+_putchar((t % 10)+ 48);
 }
 }
 _putchar('\n');
