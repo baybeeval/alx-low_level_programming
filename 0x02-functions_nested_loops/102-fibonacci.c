@@ -4,22 +4,20 @@
 *
 *Return: Always 0 (Success)
 */
-void printFibonacciNumbers(int n)
+int main(void
 {
-int b1 = 1, b2 = 2, i;
-
-if (n < 1)
-return;
-printf("%d, ", b1);
-for (i = 1; i < n; i++) {
-printf("%d, ", b2);
-int c = b1 + b2;
+int i;
+long int b1,b2,cd;  
+b1 = 1;
+b2 = 2;
+printf("%ld, %ld", b1, b2);
+for (i = 0; i < 48; i++)
+{
+cd = b1 + b2;
+printf(",%ld", cd);
 b1 = b2;
-b2 = next;
+b2 = cd;
 }
-}
-int main()
-{
-printFibonacciNumbers(50);
+printf("\n");
 return (0);
 }
