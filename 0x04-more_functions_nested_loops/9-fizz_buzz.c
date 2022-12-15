@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
-* main - Prints the Fizz Buzz test program
+* main - Prints  Fizz Buzz test program
 *
 * Return: Always 0 (Success)
 */
@@ -30,7 +30,7 @@ if (x != 100)
 {
 printf(" ");
 }
-}
+{
 printf("\n");
 }
 return (0);
