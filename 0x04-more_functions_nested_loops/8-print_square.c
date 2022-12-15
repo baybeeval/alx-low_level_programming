@@ -2,13 +2,13 @@
 /**
 * print_square - prints n number of square n times
 *
-*@size: The number of squares printed 
+*@size: The number of squares printed
 *
 * Return: no return
 */
 void print_square(int size)
 {
-int x , y;
+int x, y;
 if (size <= 0)
 {
 _putchar('\n');
