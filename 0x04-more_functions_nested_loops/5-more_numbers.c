@@ -2,20 +2,20 @@
 /**
 *more_numbers - prints the numbers 10 times from 0 to 14
 *
-* Return: void
+* Return: 0 to 14, 10 times
 */
 void more_numbers(void)
 {
-int a, b;
-for (a = 0; a <= 10; a++)
+int x, y;
+for (x = 0; x < 10; x++)
 {
-for (b = 0; b <= 14; b++)
+for (y = 0; y <= 14; y++)
 {
-if (b > 9)
+if (y > 9)
 {
-_putchar((b / 10) + '0');
+_putchar((y / 10) + '0');
 }
-_putchar((b % 10) + '0');
+_putchar((y % 10) + '0');
 }
 _putchar('\n');
 }
