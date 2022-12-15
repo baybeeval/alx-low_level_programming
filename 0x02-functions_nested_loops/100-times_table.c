@@ -1,12 +1,15 @@
 #include "main.h"
 /**
 *times_table - prints the times table
-*
+*@n: is an integer
+*@x: is an integer
+*@y: is an integer
+*@t: is an integer
 *Return: Always 0 (Success)
 */
-void times_table(void)
+void print_times_table(int n)
 {
-int n, x, y, t;
+int x, y, t;
 if (n >= 0 && n <= 15)
 {
 for (x = 0; x <= 100; x++)
