@@ -1,35 +1,32 @@
-#include <stdio.h>
+#include <stdio.h> 
 /**
-*main - prints Fizzbuzz, if multipes of 3 0r 5 or both
+* main - main function
 *
-*Return: number
-*/
+*
+* Return: a number
+*/ 
 int main(void)
 {
 int i;
-for (i = 1; i <= 100; i++) 
-{
-if ((i % 3 == 0) && (i % 3 == 0)) 
-{
-printf("Fizz Buzz");
-}
-else if (i % 3 == 0) 
-{
-printf("Fizz");
-}
-else if (i % 5 == 0)
-{
+for (i = 1; i <= 100; i++)
+{ 
+if (i % 3 == 0 || i % 5 == 0) 
+{ 
+if (i % 3 == 0)
+{ 
+printf("Fizz"); 
+} 
+if (i % 5 == 0) 
+{ 
 printf("Buzz");
-}
-}
-else
-{
-printf("%d", i);
+} 
+} 
+else 
+{ 
+printf("%d", i); 
 }
 if (i != 100)
-{
-print("");
-}
+printf(" ");  
+} 
 printf("\n");
-return 0;
 }
