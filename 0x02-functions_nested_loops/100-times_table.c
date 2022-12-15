@@ -2,7 +2,7 @@
 /**
 *print_times_table - prints the times table of 100
 *
-*@n: Is an integer
+*@n: time table (0 < n <= 15)
 *
 *Return: None
 */
@@ -40,6 +40,7 @@ _putchar((cd % 10) + 48);
 }
 }
 _putchar('\n');
+}
 }
 }
 }
