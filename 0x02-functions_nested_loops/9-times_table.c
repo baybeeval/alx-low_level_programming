@@ -5,8 +5,8 @@
 *Return: Always 0 (Success)
 */
 void times_table(void)
-int x, y, t;
 {
+int x, y, t;
 for (x = 0; x <= 9; x++)
 {
 _putchar(48);
