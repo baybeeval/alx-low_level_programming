@@ -1,13 +1,12 @@
-
 #include "main.h"
 /**
-*times_table - prints the times table of 9
+*times_table - prints the times table
 *
 *Return: Always 0 (Success)
 */
 void times_table(void)
 {
-int x, y, t;
+int n, x, y, t;
 if (n >= 0 && n <= 15)
 {
 for (x = 0; x <= 100; x++)
@@ -27,7 +26,7 @@ _putchar(t + 48);
 else if (t <= 99)
 {
 _putchar((t / 10) + 48);
-_putchar((t % 10) + 48)
+_putchar((t % 10) + 48);
 }
 else
 {
