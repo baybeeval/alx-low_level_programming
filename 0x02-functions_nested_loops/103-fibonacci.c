@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - Prints sum of the -value
+ * main - Establishes sum of the -value
  * 
  *
  * Return: Always 0 (Success)
@@ -12,7 +12,7 @@ long int n1, n2, cn, bcn;
 n1 = 1;
 n2 = 2;
 cn = bcn = 0;
-while (fn <= 4000000)
+while (cn <= 4000000)
 {
 fn = n1 + n2;
 n1 = n2;
