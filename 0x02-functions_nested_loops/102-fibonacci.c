@@ -4,10 +4,10 @@
 *
 *Return: Always 0 (Success)
 */
-int main(void
+int main(void)
 {
 int i;
-long int b1,b2,cd;  
+long int b1, b2, cd;  
 b1 = 1;
 b2 = 2;
 printf("%ld, %ld", b1, b2);
