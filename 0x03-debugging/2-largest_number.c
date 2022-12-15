@@ -14,15 +14,15 @@ b = -98;
 c = 0;
 if (a > b && b > c)
 {
-printf("%d is the largest number", a)
+_putchar(a);
 }
 else if (b > a && a > c)
 {
-printf("%d is the largest number", b)
+_putchar(b);
 }
 else
 {
-printf("%d is the largest number", c)
+_putchar(c);
 }
 return (largest);
 }
