@@ -1,13 +1,13 @@
 #include "main.h"
 /**
-* print_numbers - print number from 0 t0 9
+* print_numbers - print numbers from 0 t0 9
 *
-* Return: Always 0 (Success)
+* Return: no return
 */
 void print_numbers(void)
 {
 int x;
-for (x = 0; x <= 9; x++)
+for (x = 48; x <= 57; x++)
 {
 _putchar(x);
 }
