@@ -9,13 +9,13 @@
 void print_line(int n)
 {
 int a;
-if (a <= 0)
+if (a <= 48)
 {
 _putchar('\n');
 }
 else
 {
-for (a = 0; a < n; a++)
+for (a = 48; a < n; a++)
 {
 _putchar(95);
 }
