@@ -1,10 +1,7 @@
 #include "main.h"
 /**
 *times_table - prints the times table
-*@n: is an integer
-*@x: is an integer
-*@y: is an integer
-*@t: is an integer
+*
 *Return: Always 0 (Success)
 */
 void print_times_table(int n)
@@ -28,13 +25,14 @@ _putchar(t + 48);
 }
 else if (t <= 99)
 {
+_putchar(32);
 _putchar((t / 10) + 48);
 _putchar((t % 10) + 48);
 }
 else
 {
-_putchar((t / 100) + 48);
-_putchar((t / 10) + 48);
+_putchar(((t / 100) % 10) + 48);
+_putchar(((t / 10)% 10)  + 48);
 _putchar((t % 10) + 48);
 }
 }
