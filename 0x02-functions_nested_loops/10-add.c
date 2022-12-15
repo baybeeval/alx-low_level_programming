@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-*_add - Adds numbers together to give an ouput
+*add - Adds numbers together to give an ouput
 *@a: It is an integer
 *@b: It is an integer
 *
