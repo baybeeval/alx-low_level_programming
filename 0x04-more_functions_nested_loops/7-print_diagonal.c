@@ -2,7 +2,7 @@
 /**
 * print_diagonal - print numbers diagonally
 *
-*@n- The number printed diagonally
+*@n: The number of line printed diagonally
 *
 * Return: no return
 */
