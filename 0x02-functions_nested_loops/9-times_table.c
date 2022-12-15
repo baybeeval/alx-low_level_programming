@@ -5,17 +5,27 @@
 *Return: Always 0 (Success)
 */
 void times_table(void)
+int x, y, t;
 {
-int x, y;
-prinf("\n\n");
-printf("\n\n");
-for (x = 1; x <= 9; x++)
+for (x = 0; x <= 9; x++)
 {
+_putchar(48);
 for (y = 1; y <= 9; y++)
 {
-printf("%10d", x*y);
+t = x * y;
+_putchar(44);
+_putchar(32);
+if (t <= 9)
+{
+_putchar(32);
+_putchar(t + 48);
 }
-printf("\n");
+else
+{
+_putchar((t / 10) + 48);
+_putchar((t % 10) + 48);
 }
-return (0);
+}
+_putchar('\n');
+}
 }
