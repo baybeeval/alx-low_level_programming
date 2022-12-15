@@ -1,11 +1,10 @@
 #include <stdio.h>
-
 /**
- * main - Establishes sum of the -value
- * 
- *
- * Return: Always 0 (Success)
- */
+* main - Establishes sum of the -value
+*
+*
+* Return: Always 0 (Success)
+*/
 int main(void)
 {
 long int n1, n2, cn, bcn;
