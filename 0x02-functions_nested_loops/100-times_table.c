@@ -1,8 +1,10 @@
 #include "main.h"
 /**
-*times_table - prints the times table
+*print_times_table - prints the times table
 *
-*Return: Always 0 (Success)
+*@n: It is an integer
+*
+*Return: None
 */
 void print_times_table(int n)
 {
@@ -32,7 +34,7 @@ _putchar((t % 10) + 48);
 else
 {
 _putchar(((t / 100) % 10) + 48);
-_putchar(((t / 10)% 10)  + 48);
+_putchar(((t / 10) % 10)  + 48);
 _putchar((t % 10) + 48);
 }
 }
