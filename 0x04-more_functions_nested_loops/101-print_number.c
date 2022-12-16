@@ -17,6 +17,6 @@ _putchar('-');
 }
 x /= 10;
 if (x != 0)
-print_number(k);
+print_number(x);
 _putchar((unsigned int) n % 10 + '0');
 }
