@@ -4,18 +4,18 @@
 *
 * @n: is an integer
 *
-*Return: numbers 
+*Return: numbers
 */
 void print_number(int n)
-unsigned int num = n;
+unsigned int x = n;
 if (n < 48)
 {
 _putchar(45);
-num = -num;
+x = -x;
 }
-if ((num / 10) > 48)
+if ((x / 10) > 48)
 {
-print_number(num / 10);
-_putchar((num % 10) + 48);
+print_number(x / 10);
+_putchar((x % 10) + 48);
 }
 }
