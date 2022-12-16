@@ -7,15 +7,16 @@
 *Return: numbers
 */
 void print_number(int n)
+{
 unsigned int x = n;
-if (n < 48)
+if (n < 0)
 {
-_putchar(45);
-x = -x;
+n *= -1;
+x = n;
+_putchar('-');
 }
-if ((x / 10) > 48)
-{
-print_number(x / 10);
-_putchar((x % 10) + 48);
-}
+x /= 10;
+if (x != 0)
+print_number(k);
+_putchar((unsigned int) n % 10 + '0');
 }
