@@ -9,11 +9,8 @@
 void print_rev(char *s)
 {
 int c = 0;
-while (c >= 0)
+while (s[c] != '\0')
 {
-if (s[c] != '\0')
-{
-break;
 c++;
 }
 c--;
