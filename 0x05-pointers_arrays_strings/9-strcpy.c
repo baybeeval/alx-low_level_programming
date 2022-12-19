@@ -1,5 +1,5 @@
 /**
-*strcpy - print half of a string
+*_strcpy - print half of a string
 *
 *@dest: The destination
 *@src: The source
