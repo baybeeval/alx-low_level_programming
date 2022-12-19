@@ -1,4 +1,4 @@
-#inclue "main.h"
+#include "main.h"
 /**
 *_puts - prints a string to stdout
 *
@@ -6,5 +6,5 @@
 */
 void _puts(char *str)
 {
-puts(str"/n");
+_puts(str'\n');
 }
