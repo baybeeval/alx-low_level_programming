@@ -12,6 +12,6 @@ while (c >=0)
 if(str[c] =='\0')
 _putchar('\n');
 }
-_putchar(str[c]);
+_puts(str[c]);
 c++;
 }
