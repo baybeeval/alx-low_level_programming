@@ -8,17 +8,13 @@
 */
 void rev_string(char *s)
 {
-int start, end;
-int c = 0;
-for (end = 0; s[end] != 0; end++)
+int start, end , c;
+start = strlen(s);
 {
-for (start = 0; start < end /2; start++)
+for ( c = 0; c < start / 2; c++)
 {
-c = s[start];
-s[start] = s[end - start - 1];
-s[end - start - 1] = c;
+  end = s[c];
+  s[c] = s[start - c - 1];
+  s[start - c -1] = end
 }
-}
-for (start = 0; start < end; start++)
-_putchar(s[start]);
 }
