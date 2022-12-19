@@ -7,10 +7,10 @@
 *Return: string
 */
 void puts_half(char *str)
-{ 
+{
 int x = 0, y, second;
 while (str[x] != '\0')
-{   
+{
 x++;
 }
 second = x;
