@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-*int_strlen - checks the length of a string
+*_strlen - checks the length of a string
 *
 *@s: is the length of the characters
 *
@@ -10,7 +10,7 @@ int _strlen(char *s)
 {
 int len = 0;
 while (s[len] != '\0')
-{   
+{
 len++;
 }
 return (len);
