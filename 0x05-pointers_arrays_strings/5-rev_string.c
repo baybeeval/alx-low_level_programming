@@ -1,5 +1,4 @@
 #include "main.h"
-#include <studio.h>
 /**
 *rev_string - reverses a string
 *
@@ -21,5 +20,5 @@ s[end - 1 - start] = c;
 }
 }
 for (start = 0; start < end; start++)
-printf(s[start]);
+_putchar(s[start]);
 }
