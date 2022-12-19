@@ -16,7 +16,7 @@ while (s[i] != '\0')
 i++;
 }
 start = i - 1;
-end = start/ 2;
+end = start / 2;
 while (end >= 0)
 {
 one = s[start - end];
