@@ -17,7 +17,7 @@ second = x;
 y = second / 2;
 while (y <= second)
 {
--putchar(str[y]);
+_putchar(str[y]);
 y++;
 }
 _putchar('\n');
