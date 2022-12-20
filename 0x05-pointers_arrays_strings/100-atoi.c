@@ -8,17 +8,25 @@
 */
 int _atoi(char *s)
 {
+unsigned int count = 0, size = 0, x = 0, bd= 1, y = 1, i;
+while (*(s + count) != '\0')
 {
-int sign = 1;
-unsigned int count = 0;
-do {
-if (*s == '-')
-sign *= -1;
-else if (*s >= '0' && *s <= '9')
-count = (count * 10) + (*s - '0');
-else if (count > 0)
+if (size > 0 && (*(s + count) < '0' || *(s + count) > '9'))
 break;
-} while (*s++);
-return (count* sign);
+if (*(s + count) == '-')
+bd *= -1;
+if ((*(s + count) >= '0') && (*(s + count) <= '9'))
+{
+if (size > 0)
+y *= 10;
+size++;
 }
+count++;
+}
+for (i = count - size; i < count; i++)
+{
+x = x + ((*(s + i) - 48) * y);
+y /= 10;
+}
+return (x * bd);
 }
