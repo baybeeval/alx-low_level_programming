@@ -1,0 +1,11 @@
+#include "main.h"
+/**
+*_atoi - converts a string into an integer
+*
+*@s: is a sting
+*
+*Return: integer
+*/
+int _atoi(char *s)
+{
+}
