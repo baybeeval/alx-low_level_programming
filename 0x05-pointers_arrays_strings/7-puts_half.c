@@ -8,23 +8,14 @@
 */
 void puts_half(char *str)
 {
-int x = 0, y, second;
-while (str[x] != '\0')
-{
-x++;
-}
-if (x % 2 == 1)
-{
-y = (x-1) / 2;
-y += 1;
-}
+int count = 0, len = 0, n;
+while (str[count++])
+len++;
+if ((len % 2) == 0)
+n = len / 2;
 else
-{
-y = x /2;
-}
-for (y ++; y < x; y++)
-{
-_putchar(str[y]);
-}
+n = (len + 1) / 2;
+for (count = n; count < len; count++)
+_putchar(str[count]);
 _putchar('\n');
 }
