@@ -10,19 +10,13 @@
 */
 void print_array(int *a, int n)
 {
-int x, count;
-x = 0;
-count = 1;
-if (n < 0)
-n = 0;
-if (n > 0)
+int x;
+for (x = 0; x < n; x++)
 {
-while (a[x] != '\0' && count < n)
-{
-printf("%d, ", a[x]);
-x++;
-count++;
+printf("%d", a[x]);
+if (x == n - 1)
+continue;
+printf(", ");
 }
-printf("%d\n", a[x]);
-}
+printf("\n");
 }
