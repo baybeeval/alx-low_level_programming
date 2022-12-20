@@ -1,3 +1,4 @@
+#include "main.h"
 /**
 *_strcpy - print half of a string
 *
