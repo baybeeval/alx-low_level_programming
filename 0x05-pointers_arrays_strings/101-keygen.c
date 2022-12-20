@@ -7,17 +7,15 @@
 *
 *Return : Always 0 (Success)
 */
-int main()
+int main(int n)
 {
-int i;
+int i
 int random_number = rand()%4;
 char numbers[] = "0123456789";
 char letter[] = "abcdefghijklmnopqrstuvwxyz";
 char LETTER[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 char symbol[] = "?!@$#^&*%£";
-int size;
-scanf("%d", &size);
-char password[20];
+char password[N];
 srand((unsigned int)(time(NULL)));
 for (i = 0; i < size; i++)
 {
@@ -39,7 +37,7 @@ random_number = rand()%26;
 else
 {
 random_number = rand()%8;
-password[i] = symbols[random_number];
+password[i] = symbol[random_number];
 }
 }
 for(i = 0; i < size; i++)
