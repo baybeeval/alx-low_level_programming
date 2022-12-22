@@ -13,7 +13,7 @@ int x;
 int y = 0;
 while (dest[y] != '\0')
 {
-n++;
+y++;
 }
 for (x = 0 ; x < y && src[x] != '\0' ; x++)
 {
