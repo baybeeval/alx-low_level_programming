@@ -2,6 +2,8 @@
 /**
 *_strcat - prints out concatenates two strings
 *
+*@dest: destination
+*@src: source
 *
 *Return: Always 0
 */
