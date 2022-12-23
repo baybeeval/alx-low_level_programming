@@ -15,7 +15,7 @@ while (*(s + count) != '\0')
 {
 for (x = 0; x < 52; x++)
 {
-if (*(s + count) == alphabet[x])
+if (*(s + count) == alpha[x])
 {
 *(s + count) = rot13[x];
 break;
