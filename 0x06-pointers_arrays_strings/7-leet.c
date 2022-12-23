@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-*leet - encodes string from characters to numbers
+*leet - encodes string to 1337
 *
 *@s: string
 *
@@ -8,30 +8,19 @@
 */
 char *leet(char *s)
 {
+int count = 0;
 int x;
-for (x = 0; s[x] != '\0'; x++)
+int lower[] = {97, 101, 111, 116, 108};
+int upper[] = {65, 69, 79, 84, 76};
+int num[] = {52, 51,48,55,49};
+while (*(s + count) != '\0')
+for (x = 0; x < 5; x++)
 {
-if (s[x] == 'a' || s[x] == 'A')
+if (*(s + count) == lower[x] || *(s + count) == upper[x])
 {
-s[x] = '4';
+*(s +count) = num[x];
 }
-else if (s[x] == 'e' || s[x] == 'E')
-{
-s[x] = '3';
-}
-else if (s[x] == 'o' || s[x] == 'O')
-{
-s[x] = '0';
-}
-else if (s[x] == 't' || s[x] == 'T')
-{
-s[x] = '7';
-}
-else if (s[x] == 'l' || s[x] == 'L')
-{
-s[x] = '1';
-}
+count++;
 }
 return (s);
 }
-
