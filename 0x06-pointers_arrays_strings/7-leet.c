@@ -25,7 +25,7 @@ else if (s[x] == 't' || s[x] == 'T')
 {
 s[x] = '7';
 }
-else (s[x] == 'l' || s[x] == 'L')
+else if (s[x] == 'l' || s[x] == 'L')
 {
 s[x] = '1';
 }
