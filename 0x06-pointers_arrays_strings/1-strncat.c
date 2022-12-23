@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-*_strcat - concatenates two strings
+*_strncat - concatenates two strings
 *
 *@dest: destination
 *@src: source
@@ -8,7 +8,7 @@
 *
 *Return: pointer to destinaton
 */
-char *_strcat(char *dest, char *src, int n)
+char *_strncat(char *dest, char *src, int n)
 {
 int len = 0;
 int i;
