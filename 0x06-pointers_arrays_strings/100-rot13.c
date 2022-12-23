@@ -3,8 +3,9 @@
 *rot13 - encodes a string using rot13
 *
 *@s: is a string.
+*@c: counter of the string
 *
-* Return:  pointer to destination
+*Return: pointer to destination
 */
 char *rot13(char *s)
 {
