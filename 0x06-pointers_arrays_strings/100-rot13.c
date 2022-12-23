@@ -8,19 +8,19 @@
 */
 char *rot13(char *s)
 {
-int count = 0;
-while (s[count])
+int c = 0;
+while (s[c])
 {
-while ((s[count] >= 97 && s[count] <= 122) || (s[count] >= 65 && s[count] <= 90))
+while ((s[c] >= 97 && s[c] <= 122) || (s[c] >= 65 && s[c] <= 90))
 {
-if ((s[count] >= 109 && s[count] <= 122) || (s[count] >= 77 && s[count] <= 90))
+if ((s[c] >= 109 && s[c] <= 122) || (s[c] >= 77 && s[c] <= 90))
 {
-s[count] -= 13;
+s[c] -= 13;
 break;
 }
-s[count] += 13;
+s[c] += 13;
 }
-count++;
+c++;
 }
 return (s);
 }
