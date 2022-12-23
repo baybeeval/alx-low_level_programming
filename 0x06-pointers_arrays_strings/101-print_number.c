@@ -1,18 +1,17 @@
 #include "main.h"
 /**
-*print_number - prints an integer
+* print_number - Prints integer using putchar
+* @n: numbers as integers
 *
-*@n: is an integer
-*
-*Return: Integer
+* Return: Nothing
 */
 void print_number(int n)
 {
 unsigned int x;
 if (n < 0)
 {
-_putchar(45);
-x *= -1;
+_putchar('-');
+n *= -1;
 }
 x = n;
 if (x / 10)
