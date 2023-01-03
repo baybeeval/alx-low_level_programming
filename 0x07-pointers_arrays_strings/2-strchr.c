@@ -4,19 +4,17 @@
 *@s: string
 *@c: character
 *
-*Return: charater
+*Return: pointer to first charater
 */
 char *_strchr(char *s, char c)
 {
-unsigned int i = 0;
-for(; *(s + i) != '\0'; i++)
-if (*s(+i) == c)
+while (*s != '\0')
 {
-return (s + i);
+if  (*s == c)
+{
+ return (s);
 }
-if(*(s + i) ==c)
-{
-return (s +i);
+s++;
 }
 return ('\0')
 }
