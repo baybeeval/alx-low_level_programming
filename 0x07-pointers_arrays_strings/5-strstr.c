@@ -1,3 +1,12 @@
+#include "main.h"
+/**
+*_strstr - locates the substring
+*
+*@haystack: string
+*@needle: substring
+*
+*Return: string
+*/
 char *_strstr(char *haystack, char *needle)
 {
 char *s1, *s2;
