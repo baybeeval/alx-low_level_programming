@@ -21,6 +21,5 @@ break;
 if (*(accept + b) != '\0')
 return (s + a);
 }
-return (0);
 }
 }
