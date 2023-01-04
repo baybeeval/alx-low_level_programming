@@ -10,8 +10,7 @@
 */
 void print_diagsums(int *a, int size)
 {
-int x, s1;
-unsigned int diag1, diag2;
+unsigned int x, s1, diag1, diag2;
 s1 = 0;
 diag1 = 0;
 diag2 = 0;
