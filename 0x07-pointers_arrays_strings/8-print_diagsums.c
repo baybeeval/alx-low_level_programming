@@ -10,18 +10,13 @@
 */
 void print_diagsums(int *a, int size)
 {
-unsigned int x, s1, diag1, diag2;
-s1 = 0;
+int x, diag1, diag2;
 diag1 = 0;
 diag2 = 0;
-s1 = (size * size) - 1;
-for (x = 0; x <= s1; x = x + (size + 1))
+for (x = 0; x < size; x++)
 {
-diag1 = diag1 + a[x];
-}
-for (x = (size - 1); x < s1; x = x + (size + 1))
-{
-diag1 = diag2 + a[x];
+  diag1 += a[(x *size) + x];
+diag 2 += a[(size - 1) + ((size - 1) * x)];
 }
 printf("%d, %d\n", diag1, diag2);
 }
