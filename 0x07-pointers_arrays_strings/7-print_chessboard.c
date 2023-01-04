@@ -4,18 +4,17 @@
 *
 *@a: string
 *
-*Return: chessboard
+*Return: void
 */
 void print_chessboard(char (*a)[8])
 {
-unsigned int x, y;
-for (x = 0; x <= 8; x++)
+int x, y;
+for (x = 0; x <= 7; x++)
 {
-for (y = 0; y <= 8; y++)
+for (y = 0; y <= 7; y++)
 {
 _putchar(a[x][y]);
 }
 _putchar('\n');
 }
 }
-
