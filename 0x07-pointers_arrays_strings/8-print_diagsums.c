@@ -15,8 +15,8 @@ diag1 = 0;
 diag2 = 0;
 for (x = 0; x < size; x++)
 {
-  diag1 += a[(x *size) + x];
-diag 2 += a[(size - 1) + ((size - 1) * x)];
+diag1 += a[(x *size) + x];
+diag 2 += a[(size - 1) + ((size - 1) *x)];
 }
 printf("%d, %d\n", diag1, diag2);
 }
