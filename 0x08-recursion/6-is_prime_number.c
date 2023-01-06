@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-*is_prime_number - determines if n is a prime number
+*is_prime - determines if n is a prime number
 *
 *@n: integer
 *@c: iteration
