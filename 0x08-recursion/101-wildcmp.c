@@ -3,7 +3,7 @@
 * wildcmp - compares two strings to return 1 if identical
 * @s1: string 1.
 * @s2: string containg the asterics special character
-* Return: 1 else return 0 
+*Return: 1 else return 0
 */
 int wildcmp(char *s1, char *s2)
 {
