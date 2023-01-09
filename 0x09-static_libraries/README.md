@@ -1,0 +1,1 @@
+Creating a Static library by compiling and bundle all library codes (*.c) into object files (*.o)
